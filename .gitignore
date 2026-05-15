@@ -8,4 +8,4 @@ __pycache__/
 raw_data/
 .vscode/
 processed_data/
-models/
+/models
