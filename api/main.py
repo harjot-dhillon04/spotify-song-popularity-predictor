@@ -8,6 +8,24 @@ import joblib
 import os
 import ast
 import shap
+import boto3
+
+s3 = boto3.client("s3")
+
+os.makedirs("models", exist_ok=True)
+
+s3.download_file(
+    "spotify-popularityml-model",
+    "models/scaler.pkl",
+    "models/scaler.pkl"
+)
+
+s3.download_file(
+    "spotify-popularityml-model",
+    "models/spotify_popularity_model.pkl",
+    "models/spotify_popularity_model.pkl"
+)
+
 # =========================================================
 # PATHS + LOAD MODELS
 # =========================================================
