@@ -23,7 +23,7 @@ The machine learning pipeline was trained using a dataset containing **550,000+ 
 ## 🎧 Music Recommendation System
 - Recommends songs based on **similarity of audio features**
 - Uses feature-space comparison to find closest matches in dataset
-- Returns **top-N most similar songs**
+- Returns **top-N most similar songs along with the popularity score** for each song
 - Enables Spotify-like discovery experience
 
 ### How it works:
