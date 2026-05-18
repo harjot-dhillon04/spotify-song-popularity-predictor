@@ -75,7 +75,7 @@ The project was trained using a large Spotify dataset containing:
   - Liveness
 
 The dataset enables both:
-- Soong popularity prediction
+- Song popularity prediction
 - Audio-feature-based recommendation generation
 
 ## 🔗 Dataset Source
