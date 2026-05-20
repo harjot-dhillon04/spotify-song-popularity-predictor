@@ -139,7 +139,7 @@ This project can be run locally or deployed on an AWS EC2 instance. The system r
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<harjot-dhillon04>/spotify-song-popularity-predictor.git
+git clone https://github.com/harjot-dhillon04/spotify-song-popularity-predictor.git
 cd spotify-song-popularity-predictor
 ```
 
